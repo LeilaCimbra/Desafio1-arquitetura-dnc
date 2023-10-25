@@ -1,0 +1,126 @@
+
+#header{
+    font-family: Inter;
+    background-color: #303030;
+    padding: 100px;
+}
+#header h1{
+    font-size: 60px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: -0.025em;
+    text-align: left;
+    color: #FFFFFF
+}
+#header p{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF
+}
+#informationalMenu{
+    display: grid;
+    grid-auto-flow: column;
+    font-family: Inter;
+    padding-top: 50px;
+    padding-left: 150px;
+    padding-bottom: 50px;
+    background-color:#F9F9F9;
+}
+#informationalMenu h2{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000
+}
+#informationalMenu p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000
+}
+#content{
+    display: grid;
+    grid-auto-flow: column;
+    padding: 100px;
+    font-family: Inter;
+    color: #000000;
+    text-align: left;
+    letter-spacing: 0px;
+}
+#textcontent{
+    padding-top: 20%;
+}
+#content h2{
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 20px;
+}
+#content p{
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 30px;
+    margin-top: 25px;
+}
+#contentImg{
+    display:100%;
+}
+#servicesform{
+    font-family: Inter;
+    text-align: center;
+    background-color: #303030;
+}
+h3{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: 0em;
+    color: #FFFFFF;
+    padding:20px;
+}
+input{
+    border:none;
+    width: 508px;
+    height: 60px;
+    top: 1661px;
+    left: 466px;
+    border-radius: 10px;
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin:10px
+}
+button{ 
+    width: 286px;
+    height: 60px;
+    top: 1955px;
+    left: 577px;
+    border: none;
+    border-radius: 10px;
+    background-color: #C07212;
+    color:#FFFFFF;
+    font-family: Raleway;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    text-align: center;
+    margin-bottom: 50px;
+    cursor: pointer;
+}
+button:hover{
+    background-color:#dd9236 ;
+    transform: translateY(-7px);
+    box-shadow: 0px 15px 20px #ecedf221;
+    transition-duration: 0.5s;
+}
+   
